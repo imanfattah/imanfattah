@@ -1,32 +1,39 @@
 # Iman Fattah
 
-I work at the intersection of AI, knowledge systems, culture, and institutional transformation.
+**Operationalizing AI across technical systems, institutional adoption, governance, and trust.**
 
-My background spans large-scale knowledge and language systems at Google, production-quality digital environments at Apple, and AI implementation within public cultural institutions in Indonesia.
+I help organizations operationalize AI—from knowledge systems and language technologies to governance and institutional adoption.
 
-I am interested in how technologies move from promising ideas into dependable practice: how information is structured, how workflows are designed, and how organizations build the trust, ownership, and capability needed for adoption.
+My experience spans large-scale information and language systems at Google, platform quality and localization at Apple, and technology transformation within public cultural institutions in Indonesia. This gives me a perspective from both sides of AI adoption: the technical systems underneath it and the institutional conditions required for it to work responsibly.
 
-## Areas of practice
+My focus is what happens after the technology becomes possible—when it must enter real workflows, operate within existing power structures, earn institutional ownership, and maintain public trust.
 
-- Knowledge graphs, ontology, and information quality
-- AI adoption and workflow design
+## Areas of focus
+
+- Knowledge systems, ontology, and information quality
 - Language technology and localization
-- Cultural technology and public-interest innovation
-- Institutional readiness, governance, and public trust
+- AI operationalization and workflow design
+- Institutional readiness and technology governance
+- Public trust, accountability, and cultural legitimacy
+- Responsible technology adoption in Indonesia and Southeast Asia
 
-## Selected work
+## Selected technical work
 
-- **[Jalin: Cultural Knowledge Graph Prototype](https://github.com/imanfattah/Jalin-graph-demo-idea)**  
-  An interactive prototype exploring how cultural entities and relationships can be structured, navigated, and augmented with AI-assisted inquiry.
+### [Jalin: Cultural Knowledge Graph Prototype](https://github.com/imanfattah/Jalin-graph-demo-idea)
 
-- **[Rupa Suara](https://github.com/imanfattah/Rupasuara)**  
-  An earlier creative-technology exploration connecting sound, culture, and digital experience.
+An interactive D3.js prototype exploring how cultural entities, stakeholders, services, and public outcomes can be represented as a navigable knowledge graph.
 
-## Approach
+The project demonstrates knowledge representation, relationship modelling, interactive visualization, and the design of an AI-assisted inquiry workflow. Its documentation distinguishes implemented functionality from proposed production architecture.
 
-I use this space to document prototypes, experiments, and practical technical work. These repositories are not a claim to be a production software engineer; they are evidence of a systems-minded practice that connects technical possibilities with real institutional and cultural contexts.
+### [Rupa Suara](https://github.com/imanfattah/Rupasuara)
 
----
+An earlier creative-technology project exploring relationships between sound, interaction, culture, and digital experience.
+
+## Working principle
+
+> AI adoption succeeds or fails where technical systems meet institutional legitimacy.
+
+I use GitHub to document technical prototypes and experiments that support a broader systems practice: translating intelligent systems into institutionally workable and publicly credible implementation.
 
 Based in Jakarta, Indonesia.  
 [LinkedIn](https://www.linkedin.com/in/imanfattah/)
