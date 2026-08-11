@@ -21,4 +21,4 @@ Approach
 I use this space to document prototypes, experiments, and practical technical work. These repositories are not a claim to be a production software engineer; they are evidence of a systems-minded practice that connects technical possibilities with real institutional and cultural contexts.
 
 Based in Jakarta, Indonesia.
-LinkedIn
+[LinkedIn]([url](https://www.linkedin.com/in/imanfattah/))
