@@ -1,79 +1,24 @@
-# Jalin: Cultural Knowledge Graph Prototype
+I work at the intersection of AI, knowledge systems, culture, and institutional transformation.
 
-Jalin is an exploratory browser-based prototype for representing relationships among cultural assets, stakeholders, services, and public outcomes.
+My background spans large-scale knowledge and language systems at Google, production-quality digital environments at Apple, and AI implementation within public cultural institutions in Indonesia.
 
-It was created to test a strategic idea: could a cultural organization make complex relationships easier to explore through a knowledge graph, then use an LLM to generate questions or project directions from that structured context?
+I am interested in how technologies move from promising ideas into dependable practice: how information is structured, how workflows are designed, and how organizations build the trust, ownership, and capability needed for adoption.
 
-## What the prototype demonstrates
+Areas of practice
+Knowledge graphs, ontology, and information quality
+AI adoption and workflow design
+Language technology and localization
+Cultural technology and public-interest innovation
+Institutional readiness, governance, and public trust
+Selected work
+Jalin: Cultural Knowledge Graph Prototype
+An interactive prototype exploring how cultural entities and relationships can be structured, navigated, and augmented with AI-assisted inquiry.
 
-The current implementation includes:
+Rupa Suara
+An earlier creative-technology exploration connecting sound, culture, and digital experience.
 
-- a small, manually authored graph of entities and relationships;
-- an interactive force-directed visualization built with D3.js;
-- node selection, relationship highlighting, and contextual descriptions;
-- a responsive interface using Tailwind CSS;
-- a proof-of-concept Gemini request flow and prompt design.
+Approach
+I use this space to document prototypes, experiments, and practical technical work. These repositories are not a claim to be a production software engineer; they are evidence of a systems-minded practice that connects technical possibilities with real institutional and cultural contexts.
 
-The graph is intentionally small. Its purpose is to make the information model and interaction concept visible, not to claim comprehensive cultural coverage.
-
-## Architecture
-
-The repository currently contains a single static `index.html` file.
-
-- **Data:** JavaScript objects embedded in the page
-- **Visualization:** D3.js v7
-- **Interface:** HTML, Tailwind CSS, and browser JavaScript
-- **AI concept:** a client-side request shaped for the Gemini API
-
-No build process, database, backend, authentication layer, or deployment pipeline is included.
-
-## Run locally
-
-Because this is a static prototype, you can open `index.html` directly in a browser. A local static server is preferable:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-The graph visualization and node interactions work without an API key.
-
-## Important limitation: Gemini integration
-
-The published Gemini feature is not operational as-is.
-
-The code contains an empty API-key placeholder and attempts to call Gemini directly from the browser. A real key should **not** be embedded in client-side code because it would be exposed to visitors. The referenced preview model may also require updating.
-
-A safer implementation would:
-
-1. move model access to a server-side endpoint;
-2. keep credentials in environment variables or a managed secret store;
-3. validate and constrain incoming requests;
-4. add timeouts, structured error handling, and logging;
-5. label generated output and preserve human review;
-6. test the workflow against a supported model and API version.
-
-Until that work is complete, the AI button should be treated as an interface concept rather than a production feature.
-
-## What this project is — and is not
-
-This is a strategic technical prototype. It demonstrates knowledge representation, interactive visualization, API workflow design, and translation of an institutional concept into a working interface.
-
-It is not a production deployment, a complete cultural database, or evidence of an operational AI service.
-
-## Potential next steps
-
-- separate graph data, styling, and application logic;
-- add a documented schema and external JSON data source;
-- improve mobile behavior and accessibility;
-- replace unsafe HTML insertion with controlled rendering;
-- add a small server-side AI endpoint;
-- add validation, tests, and lightweight CI;
-- document data provenance and governance decisions;
-- define evaluation criteria for whether generated insights are useful.
-
-## Author
-
-Built by [Iman Fattah](https://github.com/imanfattah) as an exploration of AI, knowledge infrastructure, culture, and institutional strategy.
-
+Based in Jakarta, Indonesia.
+LinkedIn
